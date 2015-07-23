@@ -1,3 +1,19 @@
+/* General Styling ------------------------------
+------------------------------------------------- */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+/* Landing Page ---------------------------------
+------------------------------------------------- */
+
 .top-navigation {
     width: 100%;
     position: fixed;
@@ -10,9 +26,12 @@
 
 .top-navigation > .content {
   height: 4.375rem;
-  padding: 0 0.938rem;
   margin: 0 auto;
-  min-width: 37.5rem;
+  width: 46rem;
+  padding: 0px 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .top-navigation .links {
@@ -22,13 +41,17 @@
   margin-top: 1.7rem;
 }
 
-ul, ol {
-  list-style-type: none;
-}
-
 .top-navigation .links li {
   display: inline-block;
   margin-left: 1.563rem;
+}
+
+.top-navigation .links li:hover {
+  color: #333333;
+  cursor: pointer;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
 }
 
 .top-navigation .links li.active {
@@ -41,8 +64,9 @@ ul, ol {
   width: 1.7em;
 }
 
-
-
+.jumbotron {
+  background-image: url("images/first-background.jpg");
+}
 
 
 
