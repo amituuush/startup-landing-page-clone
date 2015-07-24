@@ -15,13 +15,13 @@ ul, ol {
 ------------------------------------------------- */
 
 .top-navigation {
-    width: 100%;
-    position: fixed;
-    border-bottom: 1px solid #ddd;
-    z-index: 9999;
-    background: #fff;
-    margin: 0;
-    padding: 0;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid #ddd;
+  z-index: 9999;
+  background: #fff;
+  margin: 0;
+  padding: 0;
 }
 
 .top-navigation > .content {
@@ -34,12 +34,13 @@ ul, ol {
   box-sizing: border-box;
 }
 
-.jumbotron .content, .icon-section .content {
+.jumbotron .content, .icon-section .content, footer .content {
   text-align: center;
   color: #fff;
   height: 4.375rem;
   margin: 0 auto;
   width: 60%;
+  height: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -119,6 +120,10 @@ ul, ol {
   outline: none;
 }
 
+.icon-section .content {
+  overflow: hidden;
+}
+
 .icon-section .content h1 {
   color: #000;
   font-weight: 300;
@@ -150,12 +155,55 @@ ul, ol {
   font-weight: 400;
 }
 
+footer .content{
+  border-top: 1px solid #efefef;
+  
+}
 
+footer {
+  margin-top: 5.5em;
+  margin-bottom: 7em;
+}
 
+footer .content h4 {
+  color: #000;
+  font-weight: 400;
+}
 
+footer .content h5 {
+  color: #838994;
+  font-weight: 300;
+  font-size: 0.9em;
+}
 
+.circle {
+  border: 1px solid #efefef;
+  border-radius: 100%;
+  padding: 1.15em;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  margin: 0 0.3em;
+}
 
+.fa {
+  position: relative;
+  bottom: 9px;
+  right: 6px;
+}
 
+.fa-twitter {
+  color: #59ADEC;
+}
+
+.fa-facebook {
+  color: #4D67A2;
+}
+
+.fa-instagram {
+  color: #417399;
+
+}
 
 
 
