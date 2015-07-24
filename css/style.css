@@ -27,8 +27,19 @@ ul, ol {
 .top-navigation > .content {
   height: 4.375rem;
   margin: 0 auto;
-  width: 60rem;
+  width: 60%;
   padding: 0px 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.jumbotron .content, .icon-section .content {
+  text-align: center;
+  color: #fff;
+  height: 4.375rem;
+  margin: 0 auto;
+  width: 60%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -73,11 +84,6 @@ ul, ol {
   background-position: center bottom;
 }
 
-.jumbotron .content {
-  text-align: center;
-  color: #fff;
-}
-
 .jumbotron .content > h1 {
   padding-top: 15rem;
   margin-bottom: 0.4em;
@@ -113,12 +119,36 @@ ul, ol {
   outline: none;
 }
 
+.icon-section .content h1 {
+  color: #000;
+  font-weight: 300;
+  font-size: 2.7em;
+  margin-top: 8rem;
+  margin-bottom: 1.25em;
+}
 
+.icon-container h2, {
+  color: #000000;
+  font-weight: 300;
+}
 
+.icon-container {
+  width: 33%;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
+.icon-container img {
+  width: 50%;
+  padding-bottom: 1em;
+}
 
-
-
+.icon-container h2 {
+  color: #000;
+  font-weight: 400;
+}
 
 
 
