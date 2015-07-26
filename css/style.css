@@ -2,6 +2,7 @@
 ------------------------------------------------- */
 html {
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -78,7 +79,7 @@ ul, ol {
 
 .jumbotron {
   height: 46rem;
-  overflow: auto;
+  overflow: hidden;
   background-image: url("../images/first-background.jpg");
   background-repeat: no repeat;
   background-size: cover;
